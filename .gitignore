@@ -1,0 +1,35 @@
+# -- git ignore -- #
+
+*.gem
+*.rbc
+/.config
+/.idea/
+/coverage/
+/InstalledFiles
+/pkg/
+/spec/examples.txt
+/spec/reports/
+/test/tmp/
+/test/version_tmp/
+/tmp/
+
+# Used by dotenv library to load environment variables.
+.env
+
+# Ignore Byebug command history file.
+.byebug_history
+
+# Documentation cache and generated files
+/.yardoc/
+/_yardoc/
+/doc/
+/rdoc/
+
+# Environment normalization
+/vendor/bundle
+/lib/bundler/man/
+
+.rvmrc
+
+# Used by RuboCop. Remote config files pulled in from inherit_from directive.
+.rubocop-https?--*
