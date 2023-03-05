@@ -5,3 +5,7 @@ source "https://rubygems.org"
 gem 'http'
 gem 'json'
 gem 'cgi'
+
+group :development do
+  gem 'rubocop'
+end
